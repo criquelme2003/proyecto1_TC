@@ -1,0 +1,28 @@
+.parse-table-view {
+  border: 1px solid var(--border-color);
+  border-radius: 0.75rem;
+  padding: 1rem;
+  background: var(--surface-color);
+}
+
+.table-wrapper {
+  overflow-x: auto;
+}
+
+.parse-table-view table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+}
+
+.parse-table-view th,
+.parse-table-view td {
+  border: 1px solid var(--border-color);
+  padding: 0.35rem 0.5rem;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.parse-table-view thead th {
+  background: var(--panel-color);
+}

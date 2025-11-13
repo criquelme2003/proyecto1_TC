@@ -1,0 +1,16 @@
+.grammar-view {
+  border: 1px solid var(--border-color);
+  border-radius: 0.75rem;
+  padding: 1rem;
+  background: var(--surface-color);
+}
+
+.grammar-view h2 {
+  margin-top: 0;
+}
+
+.grammar-view ul {
+  margin: 0;
+  padding-left: 1.25rem;
+  line-height: 1.6;
+}

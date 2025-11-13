@@ -1,0 +1,11 @@
+.editor-wrapper {
+  border: 1px solid var(--border-color);
+  border-radius: 0.5rem;
+  overflow: hidden;
+  background: #1e1e1e;
+}
+
+.editor-error-highlight {
+  background-color: rgba(239, 68, 68, 0.4);
+  border-bottom: 2px solid #ef4444;
+}

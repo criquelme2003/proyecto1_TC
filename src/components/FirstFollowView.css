@@ -1,0 +1,22 @@
+.sets-view {
+  border: 1px solid var(--border-color);
+  border-radius: 0.75rem;
+  padding: 1rem;
+  background: var(--surface-color);
+}
+
+.sets-view table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.sets-view th,
+.sets-view td {
+  border: 1px solid var(--border-color);
+  padding: 0.35rem 0.5rem;
+  text-align: left;
+}
+
+.sets-view th {
+  background: var(--panel-color);
+}
